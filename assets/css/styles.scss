@@ -17,6 +17,27 @@ body {
     padding-right: 1em;
 }
 
+.links-bar {
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 2em;
+
+    a {
+        text-decoration: none;
+        font-weight: 500;
+
+        padding: 6px 10px;
+        margin-right: 0.8em;
+        background-color: #8ac;
+
+        box-shadow: 6px 6px 0px 0px #468;
+
+        color: white;
+        &:hover { color: white; background-color: #6a9; }
+        &:visited { color: white; }
+    }
+}
+
 @mixin headers {
     font-family: "Libre Franklin", sans-serif;
     font-weight: 300;
@@ -31,6 +52,10 @@ h1.title-banner {
     font-size: 64px;
 }
 
+h1.project-title {
+    font-size: 48px;
+}
+
 h2 {
     font-family: "Roboto", sans-serif;
 
@@ -43,6 +68,11 @@ h2 {
     a {
         color: #468;
         text-decoration: none;
+
+        &:hover {
+            color: #68a;
+            text-decoration: underline;
+        }
     }
 }
 
