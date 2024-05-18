@@ -11,9 +11,9 @@ layout: default
 <p class="subtitle-banner">Software Engineer. Currently residing in SF Bay Area.</p>
 
 <div class="links-bar">
-    <a href="#">Resume</a>
-    <a href="#">GitHub</a>
-    <a href="#">LinkedIn</a>
+    <a href="{{ site.latest_resume_url | relative_url }}">Resume</a>
+    <a href="https://github.com/fyhuang">GitHub</a>
+    <a href="https://linkedin.com/in/yifenghuang/">LinkedIn</a>
 </div>
 
 <h1>Portfolio & Demos</h1>
@@ -29,5 +29,7 @@ layout: default
 
 {% capture experience_md %}{% include experience.md %}{% endcapture %}
 {{ experience_md | markdownify }}
+
+<p>See more in my <a href="{{ site.latest_resume_url | relative_url }}">full resume</a>.</p>
 
 </div>

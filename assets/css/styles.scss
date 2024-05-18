@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "github";
+
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -78,4 +80,10 @@ h2 {
 
 p {
     text-align: justify;
+}
+
+pre.highlight {
+    background-color: #eee;
+    padding: 1.5em;
+    overflow: auto;
 }
