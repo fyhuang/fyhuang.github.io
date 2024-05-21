@@ -21,8 +21,9 @@ body {
 
 .links-bar {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 
     a {
         text-decoration: none;
@@ -30,6 +31,7 @@ body {
 
         padding: 6px 10px;
         margin-right: 0.8em;
+        margin-bottom: 0.5em;
         background-color: #8ac;
 
         box-shadow: 6px 6px 0px 0px #468;
@@ -79,10 +81,11 @@ h2 {
 }
 
 p {
-    text-align: justify;
+    //text-align: justify;
 }
 
 pre.highlight {
+    font-size: 18px;
     background-color: #eee;
     padding: 1.5em;
     overflow: auto;
