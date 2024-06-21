@@ -2,7 +2,6 @@
 
 set -exu
 
-#JEKYLL_IMAGE=jekyll/jekyll:pages
 JEKYLL_IMAGE=bretfisher/jekyll:latest
 
 export PUID=1024
@@ -13,4 +12,4 @@ docker run --rm \
     -it \
     -p 127.0.0.1:4000:4000 \
     $JEKYLL_IMAGE \
-    "$@"
+    serve -H 0.0.0.0
