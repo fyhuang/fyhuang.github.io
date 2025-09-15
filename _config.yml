@@ -46,3 +46,4 @@ exclude:
   - vendor/ruby/
   - _Gemfile
   - jekyll.sh
+  - jekyll-serve.sh
