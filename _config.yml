@@ -47,3 +47,4 @@ exclude:
   - _Gemfile
   - jekyll.sh
   - jekyll-serve.sh
+  - Justfile

@@ -11,6 +11,7 @@ export PGID=100
 docker run --rm \
     --mount type=bind,source="$(pwd)",target=/site \
     -it \
+    --user=$(id -u):$(id -g) \
     -p 127.0.0.1:4000:4000 \
     $JEKYLL_IMAGE \
     "$@"
