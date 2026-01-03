@@ -1,4 +1,16 @@
-## Google &mdash; YouTube
+## Fractional.ai &mdash; production ready custom GenAI
+
+AI Engineer at Fractional AI.
+
+## Google Cloud
+
+Engineering Manager at Google Distributed Cloud.
+
+* Led a team of 10 to scale up hybrid on-prem/private cloud Kubernetes storage product.
+* Fully productionized MVP storage solution and scaled deployments by 5x in a year.
+* On-prem Kubernetes stack on bare metal Linux with controllers in Golang.
+
+## YouTube
 
 Engineering Manager at YouTube Trust & Safety.
 
@@ -12,8 +24,8 @@ Founding engineer at rideOS. Autonomous ride-hailing, mapping, routing software.
 
 * High scale Ridehailing API backed by Cloud Spanner.
 * Near-optimal assignment using generalized VRP.
-* Routing on live-updating OSM base map with A*.
-  Realtime-updatable user-programmable constraints.
+* Routing on live-updating OSM base map with A\*.
+* Realtime-updatable user-programmable constraints.
 * Stood up Java microservices on GCP from the beginning.
 * Bazel, Kubernetes, Helm, Terraform, gRPC.
 
